@@ -32,7 +32,7 @@ htmlLink.forEach(htmlLink => {
         const link = e.target.closest('.html-link');
         if (link) {
             // Get the id of the clicked element
-            const targetPageURL = "instructions/" + link.id + '.html';
+            const targetPageURL = "public/instructions/" + link.id + '.html';
             window.location.href = targetPageURL;
         }
     });
