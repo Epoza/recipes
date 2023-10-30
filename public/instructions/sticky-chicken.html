@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Chicken</title>
+    <link rel="stylesheet" href="../style.css">
+	<!-- Recipe icons created by Freepik - Flaticon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../favicon_ico/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicon_ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicon_ico/favicon-16x16.png">
+	<link rel="manifest" href="../favicon_ico/site.webmanifest">
+	<link rel="mask-icon" href="../favicon_ico/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body class="font-body font-semibold">
+    <!-- main div -->
+    <div><!-- content wrapper-->
+		<div class="md:flex">
+			<nav class="text-right md:flex md:justify-between w-full bg-subtleGreen-nav">
+				<div class="flex justify-between items-center">
+					<h1 class="font-bold uppercase p-4 border-b border-subtleGreen-nav text-mammoth">
+						<a href="../index.html" class="hover:text-blondey-secondary text-blondey-primary">Delectable Dishes</a>
+					</h1>
+					<div class="px-4 cursor-pointer md:hidden" id="burger">
+						<svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+						  </svg>
+					</div>
+				</div>
+				<ul class="text-sm hidden md:flex md:items-center text-brownShirt" id="menu">
+					<li class="py-1">
+						<a href="../index.html" class="px-4 flex justify-end transform hover:scale-105">
+							<span>Home</span>
+							<svg class="w-5 ml-2" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" stroke-linecap="round" stroke-linejoin="round"></path>
+							  </svg>
+						</a>
+					</li>
+					<li class="py-1">
+						<a href="#" class="px-4 flex justify-end border-r-4 border-white transform hover:scale-105">
+							<span>About</span>
+							<svg class="w-5 ml-2" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" stroke-linecap="round" stroke-linejoin="round"></path>
+							  </svg>
+						</a>
+					</li>
+					<li class="py-1">
+						<a href="#" class="px-4 flex justify-end border-r-4 border-white transform hover:scale-105">
+							<span>Contact</span>
+							<svg class="w-5 ml-2" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" stroke-linecap="round" stroke-linejoin="round"></path>
+							  </svg>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!-- end nav -->
+        <!-- main recipe content -->
+        <main class="px-16 py-6 bg-subtleGreen-background w-full min-h-screen">
+            <h1 class="text-5xl text-center mb-8 text-blondey-primary">Sticky Chicken</h1>
+            <div class="flex justify-center flex-col md:flex-row items-center gap-x-6 pb-2 mx-4 md:mx-auto max-w-4xl">
+                <img class="w-64 md:w-72 object-cover" src="../img/StickyChicken.jpg" alt="image">
+                <span class="text-barelyGreen text-base">Indulge in a tantalizing culinary adventure with this Sticky Chicken recipe. This dish boasts succulent chicken breast chunks, perfectly seasoned with a tantalizing blend of salt, pepper, garlic salt, and paprika. The chicken is coated in a light, crispy batter created from a delightful mixture of cornflour and plain flour, and then gently fried to a golden, crunchy perfection in vegetable oil. The real magic happens when we drizzle this delectable chicken with a rich, sweet, and savory sauce. Crafted from sesame oil, minced garlic, Chinese rice vinegar, honey, sweet chili sauce, ketchup, brown sugar, and soy sauce, this sauce adds a luscious glaze that will leave your taste buds craving more. To serve, enjoy this delightful creation alongside fluffy boiled rice, garnished with a sprinkling of sesame seeds and a flourish of fresh spring onions. It's a mouthwatering combination that promises to transport your senses to a world of unforgettable flavors. Get ready to savor a delightful meal that's both easy to prepare and incredibly satisfying. Inspired by <a href="https://www.kitchensanctuary.com/crispy-sesame-chicken-sticky-asian-sauce/" class="text-blue-500 underline">this recipe</a></span>
+            </div>
+            <!-- ingredients list -->
+			<div class="text-center py-2 border-y-2 border-subtleGreen-border"> 
+				<h1 class="text-3xl text-blondey-primary">Ingredients</h1>
+				<ul class="list-items text-barelyGreen" id="ingredients-list">
+					<li>
+						<input type="checkbox" id="ingredient1">
+						<label for="ingredient1">5 tbsp vegetable oil</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient2">
+						<label for="ingredient2">2 eggs</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient3">
+						<label for="ingredient3">3 tbsp cornflour (cornstarch)</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient4">
+						<label for="ingredient4">10 tbsp plain (all-purpose) flour</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient5">
+						<label for="ingredient5">½ tsp salt</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient6">
+						<label for="ingredient6">½ tsp pepper</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient7">
+						<label for="ingredient7">½ tsp garlic salt</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient8">
+						<label for="ingredient8">2 tsp paprika</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient9">
+						<label for="ingredient9">3 chicken breast fillets</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient10">
+						<label for="ingredient10">2 tbsp sesame seeds</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient11">
+						<label for="ingredient11">small bunch spring onions/scallions</label>
+					</li>
+					<h1 class="text-2xl text-blondey-primary">Sauce</h1>
+					<li>
+						<input type="checkbox" id="ingredient12">
+						<label for="ingredient12">1 tbsp sesame oil</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient13">
+						<label for="ingredient13">2 cloves garlic</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient14">
+						<label for="ingredient14">1 tbsp Chinese rice vinegar</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient15">
+						<label for="ingredient15">2 tbsp honey</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient16">
+						<label for="ingredient16">2 tbsp sweet chilli sauce</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient17">
+						<label for="ingredient17">3 tbsp ketchup</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient18">
+						<label for="ingredient18">2 tbsp brown sugar</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient19">
+						<label for="ingredient19">4 tbsp soy sauce</label>
+					</li>
+				</ul>
+				<button class= "bg-gray-100 text-secondary-200 hover:shadow-inner transform hover:scale-105 transition ease-out duration-300 rounded-md p-1 h-10 w-44 text-barelyGreen" id="ingredientsBtn">
+					<span id="ingredientsBtnText">Hide Ingredients</span>
+					<span><svg class="w-5 hidden" id="ing-down-arrow" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75" stroke-linecap="round" stroke-linejoin="round"></path>
+						</svg></span>
+						<span><svg class="w-5 inline-block" id="ing-up-arrow" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" stroke-linecap="round" stroke-linejoin="round"></path>
+						</svg></span>
+				</button>
+			</div>
+			<!-- Instruction list -->
+			<div class="text-center py-2"> 
+				<h1 class="text-3xl text-blondey-secondary">Instructions</h1>
+				<div class="flex justify-center">
+					<ul class="list-items text-barelyGreen max-w-md" id="instructions-list">
+						<li>
+							<input type="checkbox" id="instruction1">
+							<label for="instruction1">Heat the oil in a wok or large frying pan until very hot.</label>
+						</li>
+						<li>
+							<input type="checkbox" id="instruction2">
+							<label for="instruction2">Whilst the oil is heating, place the egg in one shallow bowl and the cornflour in another shallow bowl. Add the flour, salt, pepper, garlic salt and paprika to another shallow bowl and mix together.</label>
+						</li>
+						<li>
+							<input type="checkbox" id="instruction3">
+							<label for="instruction3">Dredge the chicken in the cornflour, then dip in the egg (make sure all of the chicken is covered in egg wash), and finally dredge it in the seasoned flour. Add to the wok and cook on a high heat for 6-7 minutes, turning two or three times during cooking, until well browned. You may need to cook in two batches (I find I can do it in one batch so long as it's no more than 3 chicken breasts). Remove from the pan and place in a bowl lined with kitchen towels.</label>
+						</li>
+						<li>
+							<input type="checkbox" id="instruction4">
+							<label for="instruction4">Add all of the sauce ingredients to the hot wok, stir and bubble on a high heat until the sauce reduces by about a third (should take 2-3 minutes). Add the chicken back in and toss in the sauce to coat. Cook for 1-2 minutes.</label>
+						</li>
+						<li>
+							<input type="checkbox" id="instruction5">
+							<label for="instruction5">Turn off the heat and divide between four bowls. Serve with boiled rice and top with sesame seeds and spring onions.</label>
+						</li>
+					</ul>
+				</div>
+				<button class= "bg-gray-100 text-secondary-200 hover:shadow-inner transform hover:scale-105 transition ease-out duration-300 rounded-md p-1 h-10 w-44 text-barelyGreen" id="instructionsBtn">
+					<span id="instructionsBtnText">Hide Instructions</span>
+					<span><svg class="w-5 hidden" id="ins-down-arrow" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75" stroke-linecap="round" stroke-linejoin="round"></path>
+						</svg></span>
+						<span><svg class="w-5 inline-block" id="ins-up-arrow" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" stroke-linecap="round" stroke-linejoin="round"></path>
+						</svg></span>
+				</button>
+			</div>
+        </main>
+    </div>
+    <script src="../index.js"></script>
+</body>
+</html>

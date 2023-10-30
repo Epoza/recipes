@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steak</title>
+    <link rel="stylesheet" href="../style.css">
+    <!-- Recipe icons created by Freepik - Flaticon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../favicon_ico/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicon_ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicon_ico/favicon-16x16.png">
+	<link rel="manifest" href="../favicon_ico/site.webmanifest">
+	<link rel="mask-icon" href="../favicon_ico/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body class="font-body font-semibold">
+    <!-- main div -->
+    <div><!-- content wrapper-->
+		<div class="md:flex">
+			<nav class="text-right md:flex md:justify-between w-full bg-subtleGreen-nav">
+				<div class="flex justify-between items-center">
+					<h1 class="font-bold uppercase p-4 border-b border-subtleGreen-nav text-mammoth">
+						<a href="../index.html" class="hover:text-blondey-secondary text-blondey-primary">Delectable Dishes</a>
+					</h1>
+					<div class="px-4 cursor-pointer md:hidden" id="burger">
+						<svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+						  </svg>
+					</div>
+				</div>
+				<ul class="text-sm hidden md:flex md:items-center text-brownShirt" id="menu">
+					<li class="py-1">
+						<a href="../index.html" class="px-4 flex justify-end transform hover:scale-105">
+							<span>Home</span>
+							<svg class="w-5 ml-2" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" stroke-linecap="round" stroke-linejoin="round"></path>
+							  </svg>
+						</a>
+					</li>
+					<li class="py-1">
+						<a href="#" class="px-4 flex justify-end transform hover:scale-105">
+							<span>About</span>
+							<svg class="w-5 ml-2" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" stroke-linecap="round" stroke-linejoin="round"></path>
+							  </svg>
+						</a>
+					</li>
+					<li class="py-1">
+						<a href="#" class="px-4 flex justify-end transform hover:scale-105">
+							<span>Contact</span>
+							<svg class="w-5 ml-2" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" stroke-linecap="round" stroke-linejoin="round"></path>
+							  </svg>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!-- end nav -->
+        <!-- main recipe content -->
+        <main class="px-16 py-6 bg-subtleGreen-background w-full min-h-screen">
+            <h1 class="text-5xl text-center mb-8 text-blondey-primary">Pan Seared Steak</h1>
+            <div class="flex justify-center flex-col md:flex-row items-center gap-x-6 pb-2 mx-4 md:mx-auto max-w-4xl">
+                <img class="w-64 md:w-72 object-cover" src="../img/steak.jpg" alt="Steak in Cast Iron Pan">
+                <span class="text-barelyGreen">Cooking a pan seared steak can be tricky, whether that be getting a crispy golden-brown sear on both sides or choosing the right ingredients to give your steak that extra boost of flavor. There are also many different cuts of steaks to choose from aswell as thickness of the steak which can alter the results. Although I recommend Ribeye or New York Strip for this recipe any steak will work with a little tweaking to the cooking time. Once you learn this recipe it will quickly be one of your favorites to cook! I recommend making bearnaise sauce for your steak which I have a recipe for <a href="bearnaise.html" class="text-blue-500 underline">here</a>.
+            </div>
+            <!-- ingredients list -->
+			<div class="text-center py-2 border-y-2 border-subtleGreen-border"> 
+				<h1 class="text-3xl text-blondey-primary">Ingredients</h1>
+				<ul class="list-items text-barelyGreen" id="ingredients-list">
+					<li>
+						<input type="checkbox" id="ingredient1">
+						<label for="ingredient1">your choice of steak (Ribeye or New York Strip recommended)</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient2">
+						<label for="ingredient2">kosher salt</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient3">
+						<label for="ingredient3">½ cup canola oil</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient4">
+						<label for="ingredient4">2 sprigs rosemary</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient5">
+						<label for="ingredient5">2 sprigs thyme</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient6">
+						<label for="ingredient6">1 large garlic clove minced</label>
+					</li>
+                    <h1 class="text-2xl text-blondey-primary">Seasoning</h1>
+					<li>
+						<input type="checkbox" id="ingredient7">
+						<label for="ingredient7">1 tsp brown sugar</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient8">
+						<label for="ingredient8">1 tsp paprika</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient9">
+						<label for="ingredient9">½ tbsp onion powder</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient10">
+						<label for="ingredient10">½ tbsp garlic powder</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient11">
+						<label for="ingredient11">1 tbsp butter</label>
+					</li>
+				</ul>
+				<button class= "bg-gray-100 text-secondary-200 hover:shadow-inner transform hover:scale-105 transition ease-out duration-300 rounded-md p-1 h-10 w-44 text-barelyGreen" id="ingredientsBtn">
+					<span id="ingredientsBtnText">Hide Ingredients</span>
+					<span><svg class="w-5 hidden" id="ing-down-arrow" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75" stroke-linecap="round" stroke-linejoin="round"></path>
+						</svg></span>
+						<span><svg class="w-5 inline-block" id="ing-up-arrow" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" stroke-linecap="round" stroke-linejoin="round"></path>
+						</svg></span>
+				</button>
+			</div>
+			<!-- Instruction list -->
+			<div class="text-center py-2"> 
+				<h1 class="text-3xl text-blondey-secondary">Instructions</h1>
+				<div class="flex justify-center">
+					<ul class="list-items text-barelyGreen max-w-md" id="instructions-list">
+						<li>
+							<input type="checkbox" id="instruction1">
+							<label for="instruction1">salt steak 30 minutes in advance(2-6 hours recommended) with a generous amount of salt. You can also add your spices at this time but I like to add mine at the end</label>
+						</li>
+						<li>
+							<input type="checkbox" id="instruction2">
+							<label for="instruction2">pat steak dry with paper towel and rub oil on both sides of the steak</label>
+						</li>
+						<li>
+							<input type="checkbox" id="instruction3">
+							<label for="instruction3">heat up your pan (preferably cast iron) to high heat and then add oil</label>
+						</li>
+						<li>
+							<input type="checkbox" id="instruction4">
+							<label for="instruction4">put your steak into the pan and turn heat down to medium</label>
+						</li>
+						<li>
+							<input type="checkbox" id="instruction5">
+							<label for="instruction5">flip steak when bottom is slightly browned (approx. 3 mins) and add more oil if necessary</label>
+						</li>
+                        <li>
+							<input type="checkbox" id="instruction6">
+							<label for="instruction6">once the other side is also slightly browned, use metal tongs to sear the edges of the steak</label>
+						</li>
+                        <li>
+							<input type="checkbox" id="instruction7">
+							<label for="instruction7">At this point turn the heat to low, add your rosemary, thyme and garlic. Leave your steak in the pan to finish getting a golden sear on both sides of the steak</label>
+						</li>
+                        <li>
+							<input type="checkbox" id="instruction8">
+							<label for="instruction8">Once your steak is cooked to how you like it transfer it to another plate along with the rosemary, thyme, and garlic. You can also add your spices at this time if you have not done so. Top the steak with your unmelted butter</label>
+						</li>
+                        <li>
+							<input type="checkbox" id="instruction9">
+							<label for="instruction9">Allow the steak to rest for around 5-10 minutes. Then enjoy!</label>
+						</li>
+					</ul>
+				</div>
+				<button class= "bg-gray-100 text-secondary-200 hover:shadow-inner transform hover:scale-105 transition ease-out duration-300 rounded-md p-1 h-10 w-44 text-barelyGreen" id="instructionsBtn">
+					<span id="instructionsBtnText">Hide Instructions</span>
+					<span><svg class="w-5 hidden" id="ins-down-arrow" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75" stroke-linecap="round" stroke-linejoin="round"></path>
+						</svg></span>
+						<span><svg class="w-5 inline-block" id="ins-up-arrow" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" stroke-linecap="round" stroke-linejoin="round"></path>
+						</svg></span>
+				</button>
+			</div>
+        </main>
+    </div>
+    <script src="../index.js"></script>
+</body>
+</html>
