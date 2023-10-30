@@ -1,14 +1,19 @@
 {
   "name": "recipes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Recipe Website",
   "main": "index.js",
   "scripts": {
     "build-css": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Epoza/recipes.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/Epoza/recipes#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
   }
