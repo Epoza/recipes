@@ -589,12 +589,12 @@ video {
   height: 2.5rem;
 }
 
-.h-32{
-  height: 8rem;
-}
-
 .h-6{
   height: 1.5rem;
+}
+
+.h-32{
+  height: 8rem;
 }
 
 .min-h-screen{
@@ -683,16 +683,6 @@ video {
   border-right-width: 4px;
 }
 
-.border-gray-200{
-  --tw-border-opacity: 1;
-  border-color: rgb(229 231 235 / var(--tw-border-opacity));
-}
-
-.border-primary{
-  --tw-border-opacity: 1;
-  border-color: rgb(255 99 99 / var(--tw-border-opacity));
-}
-
 .border-subtleGreen-border{
   --tw-border-opacity: 1;
   border-color: rgb(193 207 186 / var(--tw-border-opacity));
@@ -708,14 +698,19 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-gray-200{
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+.border-primary{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 99 99 / var(--tw-border-opacity));
+}
+
 .bg-gray-100{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
-.bg-secondary-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 226 213 / var(--tw-bg-opacity));
 }
 
 .bg-subtleGreen-background{
@@ -726,6 +721,11 @@ video {
 .bg-subtleGreen-nav{
   --tw-bg-opacity: 1;
   background-color: rgb(229 232 227 / var(--tw-bg-opacity));
+}
+
+.bg-secondary-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 226 213 / var(--tw-bg-opacity));
 }
 
 .object-cover{
@@ -801,11 +801,6 @@ video {
   line-height: 1;
 }
 
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -814,6 +809,11 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-bold{
@@ -853,6 +853,10 @@ video {
   color: rgb(130 113 110 / var(--tw-text-opacity));
 }
 
+.text-secondary-200{
+  color: 888883;
+}
+
 .text-gray-600{
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -861,10 +865,6 @@ video {
 .text-primary{
   --tw-text-opacity: 1;
   color: rgb(255 99 99 / var(--tw-text-opacity));
-}
-
-.text-secondary-200{
-  color: 888883;
 }
 
 .underline{
