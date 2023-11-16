@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shallot and Gorgonzola Burger</title>
     <link rel="stylesheet" href="../style.css">
 	<!-- Recipe icons created by Freepik - Flaticon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="../favicon_ico/apple-touch-icon.png">
@@ -60,12 +60,10 @@
 		<!-- end nav -->
         <!-- main recipe content -->
         <main class="px-16 py-6 bg-subtleGreen-background w-full min-h-screen">
-            <h1 class="text-5xl text-center mb-8 text-blondey-primary">Recipe Name</h1>
+            <h1 class="text-5xl text-center mb-8 text-blondey-primary">Shallot and Gorgonzola Burger</h1>
             <div class="flex justify-center flex-col md:flex-row items-center gap-x-6 pb-2 mx-4 md:mx-auto max-w-4xl">
                 <img class="w-64 md:w-72 object-cover" src="../img/gorgonzola-burger.jpg" alt="image">
-                <span class="text-barelyGreen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veritatis officia eveniet quaerat adipisci quas optio itaque omnis ipsum, eos iusto, facere ea voluptatem quam odit dolore impedit aliquid! Vel!
-				Ab earum tempore rerum veritatis odit itaque distinctio nostrum labore tenetur praesentium accusamus, cupiditate eos amet quidem est non nulla debitis beatae enim libero iure et harum adipisci? Illum, quos!
-				Dolorem illum corrupti maxime. Incidunt iste earum omnis deleniti quia recusandae hic similique beatae, ipsum nemo voluptatibus! Dolorem repudiandae molestiae harum aut praesentium explicabo? Minus praesentium rerum deleniti odit eius?
+                <span class="text-barelyGreen">The Gorgonzola smash burger is a flavor explosion that tantalizes the taste buds with a carefully crafted blend of ingredients. The patty, expertly crafted with a mixture of white onion, shallots, rosemary, and garlic, boasts a delightful medley of aromatic flavors. The seasoning, a harmonious combination of brown sugar, onion powder, and garlic powder, imparts a rich depth to the meat, enhancing its succulence. The burger's texture is a testament to the art of smash burgers, with a crispy exterior giving way to a juicy and tender interior. Topped with a generous heap of shredded lettuce and tangy pickles, each bite is a symphony of textures and tastes. The creamy and piquant Gorgonzola adds the final touch, elevating the burger to a gourmet experience that lingers on the palate.
             </div>
             <!-- ingredients list -->
 			<div class="text-center py-2 border-y-2 border-subtleGreen-border"> 
@@ -73,47 +71,60 @@
 				<ul class="list-items text-barelyGreen" id="ingredients-list">
 					<li>
 						<input type="checkbox" id="ingredient1">
-						<label for="ingredient1">item</label>
+						<label for="ingredient1">½ white onion, sliced</label>
 					</li>
 					<li>
 						<input type="checkbox" id="ingredient2">
-						<label for="ingredient2">item</label>
+						<label for="ingredient2">½ shallot, sliced</label>
 					</li>
 					<li>
 						<input type="checkbox" id="ingredient3">
-						<label for="ingredient3">item</label>
+						<label for="ingredient3">pinch of rosemary</label>
 					</li>
 					<li>
 						<input type="checkbox" id="ingredient4">
-						<label for="ingredient4">item</label>
+						<label for="ingredient4">2 minced garlic cloves</label>
 					</li>
 					<li>
 						<input type="checkbox" id="ingredient5">
-						<label for="ingredient5">item</label>
+						<label for="ingredient5">gorgonzola crumbles</label>
 					</li>
 					<li>
 						<input type="checkbox" id="ingredient6">
-						<label for="ingredient6">item</label>
+						<label for="ingredient6">your favorite sliced cheese(optional)</label>
 					</li>
 					<li>
 						<input type="checkbox" id="ingredient7">
-						<label for="ingredient7">item</label>
+						<label for="ingredient7">pickles</label>
 					</li>
 					<li>
 						<input type="checkbox" id="ingredient8">
-						<label for="ingredient8">item</label>
+						<label for="ingredient8">shredded lettuce</label>
 					</li>
 					<li>
 						<input type="checkbox" id="ingredient9">
-						<label for="ingredient9">item</label>
+						<label for="ingredient9">oil</label>
 					</li>
 					<li>
 						<input type="checkbox" id="ingredient10">
-						<label for="ingredient10">item</label>
+						<label for="ingredient10">ground beef</label>
 					</li>
+					<h1 class="text-2xl text-blondey-primary">Seasoning</h1>
 					<li>
 						<input type="checkbox" id="ingredient11">
-						<label for="ingredient11">item</label>
+						<label for="ingredient11">½ TBSP salt</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient12">
+						<label for="ingredient12">½ TBSP onion powder</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient13">
+						<label for="ingredient13">½ TBSP garlic powder</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ingredient14">
+						<label for="ingredient14">½ TBSP brown sugar</label>
 					</li>
 				</ul>
 				<button class= "bg-gray-100 text-secondary-200 hover:shadow-inner transform hover:scale-105 transition ease-out duration-300 rounded-md p-1 h-10 w-44 text-barelyGreen" id="ingredientsBtn">
@@ -133,23 +144,39 @@
 					<ul class="list-items text-barelyGreen max-w-md" id="instructions-list">
 						<li>
 							<input type="checkbox" id="instruction1">
-							<label for="instruction1">item</label>
+							<label for="instruction1">Add your seasoning to the ground beef and roll it into a ball</label>
 						</li>
 						<li>
 							<input type="checkbox" id="instruction2">
-							<label for="instruction2">item</label>
+							<label for="instruction2">Heat your cast iron pan/skillet to medium high heat and add oil</label>
 						</li>
 						<li>
 							<input type="checkbox" id="instruction3">
-							<label for="instruction3">item</label>
+							<label for="instruction3">Place your meatball into the pan and use parchment paper along with your spatula to press the meatball down flat to form a thin patty</label>
 						</li>
 						<li>
 							<input type="checkbox" id="instruction4">
-							<label for="instruction4">item</label>
+							<label for="instruction4">Flip your patty when the bottom is browned and cripsy(approx. 3 mins)</label>
 						</li>
 						<li>
 							<input type="checkbox" id="instruction5">
-							<label for="instruction5">item</label>
+							<label for="instruction5">Turn the heat down to medium and add your onion, shallot, rosemary, and garlic into the pan to cook</label>
+						</li>
+						<li>
+							<input type="checkbox" id="instruction6">
+							<label for="instruction6">Add your gorgonzola crumbles to the top of your burger and then add your onion, shallots, rosemary, and garlic when they are done cooking</label>
+						</li>
+						<li>
+							<input type="checkbox" id="instruction8">
+							<label for="instruction8">Turn heat off and add a slice of your favorite cheese to the top, I do this because it allows the toppings to hold together instead of falling out when you bite into it</label>
+						</li>
+						<li>
+							<input type="checkbox" id="instruction9">
+							<label for="instruction9">cover the pan to trap in humidity and melt the cheese</label>
+						</li>
+						<li>
+							<input type="checkbox" id="instruction10">
+							<label for="instruction10">Add your pickles then shredded lettuce to the top of the burger and then put the burger onto a bun if you wish, enjoy!</label>
 						</li>
 					</ul>
 				</div>
